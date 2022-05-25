@@ -12,7 +12,7 @@ public class Ex5_1 {
 		String name = "まえだ";
 		int age = 23;
 		double height = 178.0;
-		char zodiac = '虎';
+		char zodiac = '寅';
 		
 		System.out.println("わたしの名前は" + name + "です。");
 		System.out.println("わたしの身長は" + height + "cmです。");
