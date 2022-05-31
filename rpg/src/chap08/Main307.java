@@ -27,7 +27,7 @@ public class Main307 {
 		
 		
 		// 冒険の始まり
-		h.slip();
+//		h.slip();
 		m1.run();
 		m2.run();
 		h.run();

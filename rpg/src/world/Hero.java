@@ -1,11 +1,13 @@
 package world;
 
 public class Hero {
-	public String name;
-	public int hp;
+	public String name = "ミナト";
+	public int hp = 100;
 	
 	
-	public Hero() {}
+	public Hero() {
+		System.out.println("Heroのコンストラクタが動作");
+	}
 	public Hero(String name) {
 		this.name = name;
 	}
@@ -18,7 +20,5 @@ public class Hero {
 	
 	public void run() {
 		System.out.println(this.name + "は、逃げ出した ! ");
-		System.out.println("GAMEOVER");
-		System.out.println("最終HPは" + this.hp + "でした");
 	}
 }
