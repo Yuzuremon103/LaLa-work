@@ -1,7 +1,8 @@
 package world;
 
-public class SuperHero extends Hero{
+public class SuperHero extends Hero {
 	boolean flying;
+//	public String name;
 	
 	
 	public SuperHero() {
@@ -11,6 +12,7 @@ public class SuperHero extends Hero{
 	
 	public SuperHero(String name) {
 		super(name);   // Hero.javaのフィールドを呼び出す
+//		this.name = name;
 	}
 	
 	

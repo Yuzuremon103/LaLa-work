@@ -7,13 +7,14 @@ public class PoisonMatango extends Matango {
 	
 	public PoisonMatango(char suffix) {
 		super(suffix);
-		this.pcount = 10;
+//		this.pcount = 10;
 	}
 	
-	public void attack(Hero h) {
-		super.attack(h);
-		if(pcount != 0) {
-			System.out.println("さらに毒の胞子をばら撒いた");
+	public void attack(Hero h) { // オーバーライド Hero指定すればSuperHeroにも有効
+		System.out.println("PoisonMatangoの攻撃 !");
+//		super.attack(h);    // 親のattack()を読む
+		if(this.pcount != 0) {
+			System.out.println(this.suffix + "はさらに毒の胞子をばら撒いた");
 			int damage = h.hp / 5;
 			h.hp -= damage;
 			System.out.println(h.name + "に" + damage + "ポイントの毒ダメージ");

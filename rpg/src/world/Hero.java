@@ -1,7 +1,7 @@
 package world;
 
-public class Hero {
-	public String name = "ミナト";
+public class Hero extends Character {
+//	public String name;
 	public int hp = 100;
 	
 	
@@ -9,7 +9,8 @@ public class Hero {
 		System.out.println("Heroのコンストラクタが動作");
 	}
 	public Hero(String name) {
-		this.name = name;
+//		this.name = name;
+		super(name);
 	}
 	
 	public void attack(Matango m) {

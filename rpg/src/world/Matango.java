@@ -14,6 +14,7 @@ public class Matango {
 	}
 	
 	public void attack(Hero h) {
+		System.out.println("Matangoの攻撃 !");
 		System.out.println("キノコ" + this.suffix + "の攻撃 ! ");
 		System.out.println(h.name + "に10のダメージを与えた");
 		h.hp -= 10;
