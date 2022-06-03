@@ -11,7 +11,7 @@ public class Main378 {
 		h.run();
 		
 		SuperHero sh = new SuperHero();
-		sh.name = "アサカ";
+		sh.setName("アサカ");
 		sh.run();
 
 	}

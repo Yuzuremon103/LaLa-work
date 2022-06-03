@@ -25,7 +25,7 @@ public class Main {
 		
 		
 		SuperHero sh = new SuperHero("まえだ");
-		sh.sleep();
+//		sh.sleep();
 		
 	}
 

@@ -2,8 +2,6 @@ package ch11;
 
 import world.DeathBat;
 import world.Goblin;
-import world.Hero;
-import world.SuperHero;
 import world.Werewolf;
 
 public class Main433 {
@@ -32,14 +30,14 @@ public class Main433 {
 		db.attack();
 		db.run();
 		System.out.println("HP : " + db.hp);
-		System.out.println("MP : " + db.mp);
+//		System.out.println("MP : " + db.mp);
 		
-		Hero h = new Hero("田中");
-		h.sleep();
-		
-		
-		SuperHero sh = new SuperHero("まえだ");
-		sh.sleep();
+//		Hero h = new Hero("田中");
+//		h.sleep();
+//		
+//		
+//		SuperHero sh = new SuperHero("まえだ");
+//		sh.sleep();
 
 
 		

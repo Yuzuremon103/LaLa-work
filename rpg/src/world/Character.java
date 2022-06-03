@@ -18,6 +18,10 @@ public abstract class Character {
 	
 	public abstract void attack(Matango m);
 	
+	public void fireball(Matango m) {
+		System.out.println("火を出した");
+	}
+ 	
 	public void sleep() {;
 		System.out.println(this.name + "は眠った");
 		System.out.println("hpが10ポイント回復した");

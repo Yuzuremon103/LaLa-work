@@ -10,9 +10,9 @@ public class Main307 {
 		Hero h = new Hero();
 		
 		// hフィールドに初期値をセット
-		h.name = "湊";
-		h.hp = 100;
-		System.out.println("勇者" + h.name + "を生み出しました !");
+		h.setName("湊");
+		h.setHp(100);
+		System.out.println("勇者" + h.getName() + "を生み出しました !");
 		
 		
 		// お化けキノコよ、この仮想世界に生まれよ！
