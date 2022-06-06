@@ -1,8 +1,4 @@
-package main;
-
-import world.Animal;
-import world.Dog;
-import world.Hawk;
+package world;
 
 public class Main {
 
@@ -12,15 +8,15 @@ public class Main {
 		
 		
 		Dog dog = new Dog();
-		dog.name = "犬";
+		dog.setName("犬");
 		dog.eat();
-		for(int i = 0; i < 10; i++) {
+		for(int i = 0; i < 1; i++) {
 			dog.go();
 		}
 		dog.go();
 
 		Hawk hawk = new Hawk();
-		hawk.name = "鷹";
+		hawk.setName("鷹");
 		hawk.eat();
 		hawk.go();
 	}

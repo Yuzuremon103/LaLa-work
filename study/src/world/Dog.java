@@ -2,8 +2,8 @@ package world;
 
 public class Dog extends Animal {
 	public void bark() {
-		System.out.println(this.name + "は吠えた");
+		System.out.println(this.getName() + "は吠えた");
 		System.out.println("hpが1減った");
-		this.hp -= 1;
+		this.setHp(this.getHp() - 1);
 	}
 }

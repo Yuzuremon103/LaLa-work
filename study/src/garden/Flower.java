@@ -1,14 +1,14 @@
 package garden;
 
 public class Flower {
-	public String name;
+	private String flowerName;
 	
 	public Flower() {
-		this.name = "花";
+		this.flowerName = "花";
 	}
 	
 	public Flower(String name) {
-		this.name = name;
+		this.flowerName = name;
 	}
 	
 //	setName(String name) {
@@ -16,6 +16,33 @@ public class Flower {
 //	}
 	
 	public void bloom() {
-		System.out.println(this.name + "が咲いた。");
+		System.out.println(flowerName + "が咲いた。");
+	}
+
+	public String getName() {
+		return flowerName;
+	}
+
+	public void setName(String name) {
+		this.flowerName = name;
+	}
+	
+	
+	// flower
+	public Leaf makeLeaf() {
+		Leaf l = new Leaf("葉");
+		return l;
+	}
+	
+	class Leaf {  // public class Leafにするなら別ファイルにしなければならない
+		private String name;
+		
+		public Leaf (String name) {
+			this.name = name;
+		}
+		
+		public String getName() {
+			return this.name;
+		}
 	}
 }

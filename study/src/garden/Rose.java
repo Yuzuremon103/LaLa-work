@@ -11,9 +11,10 @@ public class Rose extends Flower {
 	
 	public Rose(String name) {   // 親のコンストラクタと同じ形にする
 		super(name); // 親のフィールドを呼び出す
+//		this.name = name;   // 	親の名前フィールドに実装(publicなら可能)
 	}
 	
 	public void smell () {
-		System.out.println(this.name + "はいい香りがする。");
+		System.out.println(this.getName() + "はいい香りがする。");
 	}
 }

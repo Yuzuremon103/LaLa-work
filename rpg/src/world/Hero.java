@@ -23,6 +23,14 @@ public class Hero {
 		return this.name;
 	}
 	
+	public Sword getSword() {
+		return sword;
+	}
+	public void setSword(Sword sword) {
+		this.sword = sword;
+	}
+
+	
 	public void setHp(int hp) {
 		this.hp = hp;
 	}
