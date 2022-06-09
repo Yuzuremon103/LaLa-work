@@ -8,6 +8,7 @@ public class Account {
 		return "¥" + this.balance + "(口座番号:" + this.accountNumber + ")";
 	}
 	
+	@Override
 	public boolean equals(Object o) {
 		if(this == o) {
 			return true;
@@ -21,5 +22,12 @@ public class Account {
 			}
 		}
 		return false;
+	}
+	
+	@Override
+	public int hashCode() {
+		int result = accountNumber.hashCode();
+		result = result * 31 + Integer.hashCode(balance);
+		return result;
 	}
 }

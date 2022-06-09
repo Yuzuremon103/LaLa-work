@@ -14,7 +14,8 @@ public class Cleric {
 		this.mp -= 5;
 		this.hp = MAX_HP;
 		System.out.println("聖職者は「セルフエイド」という魔法を使った");
-		System.out.println("");
+		System.out.println("HPが最大値(50)まで回復した");
+		System.out.println("mpを5使った");
 	}
 	
 	
