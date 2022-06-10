@@ -1,6 +1,6 @@
 package chap15;
 
-public class Mian559 {
+public class Main559 {
 
 	public static void main(String[] args) {
 		// TODO 自動生成されたメソッド・スタブ

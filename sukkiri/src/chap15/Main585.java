@@ -7,6 +7,7 @@ public class Main585 {
 
 	public static void main(String[] args) throws Exception {
 		// TODO 自動生成されたメソッド・スタブ
+		// スラッシュ( / )で指定したい時はSimpleDateFormat
 		SimpleDateFormat f = new SimpleDateFormat("yyyy/MM/dd" /*HH:mm:ss:*/);
 		
 		Date d = f.parse("2020/09/22" /*01:23:45:*/);
